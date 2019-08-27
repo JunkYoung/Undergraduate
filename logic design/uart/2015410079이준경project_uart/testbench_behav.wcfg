@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="576000000002fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="18" />
+   <wvobject db_ref_id="1" fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/CtrlParity" type="array">
+      <obj_property name="ElementShortName">CtrlParity[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CtrlParity[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/TxDataEnA" type="logic">
+      <obj_property name="ElementShortName">TxDataEnA</obj_property>
+      <obj_property name="ObjectShortName">TxDataEnA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/TxDataA" type="array">
+      <obj_property name="ElementShortName">TxDataA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TxDataA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/RxDataRdyA" type="logic">
+      <obj_property name="ElementShortName">RxDataRdyA</obj_property>
+      <obj_property name="ObjectShortName">RxDataRdyA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/RxDataA" type="array">
+      <obj_property name="ElementShortName">RxDataA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RxDataA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/ErrorA" type="logic">
+      <obj_property name="ElementShortName">ErrorA</obj_property>
+      <obj_property name="ObjectShortName">ErrorA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/TxDataEnB" type="logic">
+      <obj_property name="ElementShortName">TxDataEnB</obj_property>
+      <obj_property name="ObjectShortName">TxDataEnB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/TxDataB" type="array">
+      <obj_property name="ElementShortName">TxDataB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TxDataB[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/RxDataRdyB" type="logic">
+      <obj_property name="ElementShortName">RxDataRdyB</obj_property>
+      <obj_property name="ObjectShortName">RxDataRdyB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/RxDataB" type="array">
+      <obj_property name="ElementShortName">RxDataB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RxDataB[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/ErrorB" type="logic">
+      <obj_property name="ElementShortName">ErrorB</obj_property>
+      <obj_property name="ObjectShortName">ErrorB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/net_B2A" type="logic">
+      <obj_property name="ElementShortName">net_B2A</obj_property>
+      <obj_property name="ObjectShortName">net_B2A</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/net_A2B" type="logic">
+      <obj_property name="ElementShortName">net_A2B</obj_property>
+      <obj_property name="ObjectShortName">net_A2B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/testbench/wait_cycles" type="array">
+      <obj_property name="ElementShortName">wait_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_cycles[31:0]</obj_property>
+   </wvobject>
+</wave_config>
